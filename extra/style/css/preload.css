@@ -1,0 +1,28 @@
+.loading1 {
+    background: #FFF;
+    background-repeat: no-repeat;
+    background-size: 800px 300px !important;
+	height: 300px !important;
+    position: relative;
+}  
+.reverse-direction .loading1 {
+    -webkit-animation-direction: reverse;
+  -moz-animation-direction: reverse;
+}
+
+@-webkit-keyframes wave {
+0% {
+background-position: -468px 0;
+}
+100% {
+background-position: 468px 0;
+}
+}
+@-moz-keyframes wave {
+    0% {
+background-position: -468px 0;
+}
+100% {
+background-position: 468px 0;
+}
+}
